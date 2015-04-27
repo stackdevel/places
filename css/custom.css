@@ -1,0 +1,123 @@
+.navigation {
+	background: #012A2C;
+}
+.navigation a {
+  padding: 20px;
+  display: inline-block;
+  color:#fff;
+  margin: 0 0 -1px 0;
+	border-bottom: 1px solid transparent;
+	vertical-align:middle;
+}
+.navigation a.logo {
+	position:relative;
+	min-width:100px;
+	margin-top:-10px;
+	border-color:transparent!important;
+}
+.navigation a.logo i {
+	  font-size: 42px;
+		position:absolute;
+}
+.navigation form.fast {
+  float:right;
+  width:500px;
+}
+.navigation form.fast label {
+  background:#D9E4DE;
+  color:#6B7473;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  padding: 10px 15px;
+  font-weight:bold;
+  width:65px;
+}
+
+.navigation form.fast input {
+  float: none;
+  width: 435px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  height: 44px;   
+}
+.introduction {
+  background:#44B67A;
+  color:#fff;
+}
+.introduction .breadcrumbs {
+  padding: 20px 0 10px 0;
+}
+.introduction .breadcrumbs a {
+  color:#fff;
+}
+.introduction .breadcrumbs i {
+  font-size: 24px;
+  vertical-align: top;
+  font-weight: bold;
+}
+.introduction h1 {
+  margin:10px 0 0 0;
+}
+.introduction p {
+  color:#fff;
+}
+
+.content {
+	padding:70px 0;
+}
+.list {
+
+}
+.list .item {
+  color:#969696;
+  margin:40px 0;
+}
+.list .item p {
+  color:#969696;
+  margin:5px 0;
+  padding:0;
+}
+.list .item img {
+  max-width: 100%;
+  max-height: 120px;
+  margin: auto;
+  display: block;
+  border-radius: 5px;
+}
+.list .item .status {
+  border: 1px solid;
+  border-radius: 20px;
+  padding: 1px 6px 2px 6px;
+  font-size: 12px;
+}
+.list .item .status i {
+  vertical-align: middle;
+  font-weight: bold;
+  font-size: 12px;
+}
+.list .item h3 {
+  margin: 5px 0;
+}
+.list .item .details {
+
+}
+.list .item .website {
+  margin-top: 20px;
+  display: block;
+  border-bottom: 1px dashed;
+}
+
+.blocks > a {
+  width: 22%;
+  display: inline-block;
+  text-align: center;
+  border-bottom: 1px solid;
+  margin:0 5%;
+  padding: 13px;
+  font-size: 24px;
+}
+.blocks i {
+  font-weight: bold;
+  font-size: 26px;
+  vertical-align: top;
+}
